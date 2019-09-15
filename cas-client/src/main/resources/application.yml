@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    type:
+
+
+#cas
+cas:
+  prefixUrl: http://localhost:9000/cas/
+  loginUrl: ${cas.prefixUrl}login
+  serviceUrl: http://localhost:${server.port}
+  callbackUrl: ${cas.serviceUrl}/callback
+  restUrl: http://localhost:9000/cas/v1/tickets
