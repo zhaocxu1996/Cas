@@ -91,7 +91,7 @@
     </dependencies>
 
     <properties>
-        <springboot.version>2.1.2.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
         <pac4j.version>3.0.0</pac4j.version>
         <buji.version>4.0.0</buji.version>
     </properties>
